@@ -1,8 +1,9 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   font-size: 16px;
   background-color: #ffffff;
+  font-style: normal;
 }
 
 /* HEADER */
@@ -10,27 +11,31 @@ body {
 ul {
   list-style: none;
 }
+
 a {
   text-decoration: none;
 }
+
 .header-logo {
-  color: #2e2f42;
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.logo-blue {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
+.logo-grey {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 .header-item {
   color: #2e2f42;
   font-weight: 500;
@@ -38,7 +43,12 @@ a {
   letter-spacing: 0.02em;
 }
 
-.link {
+.header-item:hover,
+.header-item:focus {
+  color: #404bbf;
+}
+
+.contacts-links {
   color: #434455;
   font-style: normal;
   font-weight: 400;
@@ -50,6 +60,7 @@ a {
 .contacts-links .link:focus {
   color: #404bbf;
 }
+
 .hero {
   background: #2e2f42;
 }
@@ -67,7 +78,8 @@ a {
 
 .btn-order {
   color: #fff;
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -76,6 +88,7 @@ a {
   display: block;
   cursor: pointer;
 }
+
 .btn-order:focus,
 .btn-order:hover {
   border-radius: 4px;
@@ -87,6 +100,7 @@ a {
 .features {
   background-color: #fff;
 }
+
 .features-cubtitle {
   color: #2e2f42;
   font-size: 20px;
@@ -169,11 +183,21 @@ a {
 }
 
 .footer-logo {
-  color: #f4f4fd;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-white {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
