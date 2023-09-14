@@ -59,6 +59,7 @@ a {
 .contacts-links .link:hover,
 .contacts-links .link:focus {
   color: #404bbf;
+  font-style: normal;
 }
 
 .hero {
