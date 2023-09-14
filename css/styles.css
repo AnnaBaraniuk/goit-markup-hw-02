@@ -48,7 +48,7 @@ a {
   color: #404bbf;
 }
 
-.link {
+.contacts-links .link {
   color: #434455;
   font-style: normal;
   font-weight: 400;
@@ -89,7 +89,6 @@ a {
 
 .btn-order:focus,
 .btn-order:hover {
-  border-radius: 4px;
   background: #404bbf;
 }
 
@@ -130,7 +129,6 @@ a {
 }
 
 .employees-item {
-  border-radius: 0px 0px 4px 4px;
   background-color: #fff;
 }
 
